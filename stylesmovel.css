@@ -1,0 +1,51 @@
+@media (max-width: 1024px) {
+    .container1, .container2, .container3, .container4 {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .containers {
+        justify-content: center;
+    }
+
+    .container1, .container2, .container3, .container4 {
+        width: calc(100% - 20px);
+    }
+
+    .icons {
+        margin-left: 0;
+    }
+
+    section {
+        display: flex;
+    }
+
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the elements horizontally */
+        justify-content: center; /* Center the elements vertically */
+    }
+
+    .boxtrofeu, .boxsecurity {
+        width: 100%; /* Make the boxes take up the full width */
+        transform: scale(0.5); /* Reduce the size by 50% */
+    }
+
+    .boxshipping, .boxsuport {
+        width: 100%; /* Make the boxes take up the full width */
+        transform: scale(0.5); /* Reduce the size by 50% */
+    }
+}
+
